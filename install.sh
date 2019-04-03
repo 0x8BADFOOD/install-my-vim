@@ -1,12 +1,6 @@
 #!/bin/sh
-echo "Installing vim"
-sudo apt-get install vim
-
-echo "Installing ctags"
-sudo apt-get install exuberant-ctags curl
-
-echo "Installing curl"
-sudo apt-get install curl
+echo "Installing vim, ctags, curl, ack "
+echo Y | sudo apt-get install ack vim exuberant-ctags curl
 
 echo "Installing spf13"
 curl https://j.mp/spf13-vim3 -L > spf13-vim.sh
