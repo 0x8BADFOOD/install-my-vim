@@ -7,8 +7,7 @@ Quick custom vim installation for linux distributives with apt package manager.
 Clone and run installation script:
 
 
-       git clone https://github.com/0x8BADFOOD/install-my-vim.git
-       ./install-my-vim/install.sh
+       git clone https://github.com/0x8BADFOOD/install-my-vim.git && ./install-my-vim/install.sh
 
 During installation some plugins request extra info. For example:
 
